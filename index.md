@@ -4,14 +4,14 @@ title: John Bramley
 ---
 
 ## Portfolio
-* ### [Return the Favor](https://github.com/bramleyjl/return_the_favor/tree/develop)
+* #### [Return the Favor](https://github.com/bramleyjl/return_the_favor/tree/develop)
 An application written in collaboration with Albany Can Code's Frontend cohort that collects, filters, and displays military discounts available in New York's Capital District. Backend developed using Node.js, Express, and MySQL.
 
 * #### [ForumPlus](https://github.com/bramleyjl/forum_plus)
 A forum platform built using Node.js and Express.
 
-* #### [Ruby Games](https://github.com/bramleyjl/ruby_games)
-A collection of command line games originally written in Ruby and refactored for online play with Rails.
+* #### [Connect Four](https://github.com/bramleyjl/connect_4)
+A Connect 4 command line game written in Ruby.
 
 ## Education
 * #### [Albany Can Code](https://albanycancode.org/)
