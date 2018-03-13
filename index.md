@@ -4,8 +4,8 @@ title: John Bramley
 ---
 
 ## Portfolio
-* ### [Return the Favor](https://github.com/bramleyjl/return_the_favor)
-Written in collaboration with Albany Can Code's Frontend cohort, Return the Favor collects, filters, and displays military discounts available throughout New York State. Backend developed using Node.js/Express and MySQL.
+* ### [Return the Favor](https://github.com/bramleyjl/return_the_favor) 
+Written in collaboration with Albany Can Code's Frontend cohort, Return the Favor collects, filters, and displays military discounts available throughout New York State. Backend developed using Node.js/Express and MySQL. View the live site [here.](https://returnthefavor.vet) 
 
 * ### [ForumPlus](https://github.com/bramleyjl/forum_plus)
 Forum platform built using Node.js and Express.
@@ -21,7 +21,7 @@ Sample Node.js application written for a coding challenge, allows users to vote 
   Selective admission 12-week intensive covering Node.js framework and adjacent tools.
 
 * ### [The George Washington University](https://www.gwu.edu/) - May 2013
-  B.A. in History, concentrating on early imperial Roman history.
+  B.A. in History, concentrating on early imperial Rome.
   
 ## About Me
 
