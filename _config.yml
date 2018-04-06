@@ -21,6 +21,7 @@ url: "https://bramleyjl.github.io" # the base hostname & protocol for your site,
 twitter_username: bramleyjl
 github_username:  bramleyjl
 linkedin_username: bramleyjl
+resume: /resume.pdf
 
 # Build settings
 markdown: kramdown
