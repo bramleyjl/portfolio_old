@@ -7,14 +7,14 @@ title: John Bramley
 * ### [Return the Favor](https://github.com/bramleyjl/return_the_favor) 
 Written in collaboration with Albany Can Code's Frontend cohort, Return the Favor collects, filters, and displays military discounts available throughout New York State. Backend developed using Node.js/Express and MySQL. View the live site [here.](https://returnthefavor.vet) 
 
+* ### [MtG Script Automater](https://github.com/BColsey/MTGScriptAutomater)
+Parses text for Magic: the Gathering card names and returns all versions of found cards. Users can then download high-resolution images of the version of their choice. Developed in Node.js/Express and integrates [Scryfall's API.](https://scryfall.com) Live site viewable [here.](http://mtgscript.bramley.design) 
+
 * ### [ForumPlus](https://github.com/bramleyjl/forum_plus)
 Forum platform built using Node.js and Express.
 
 * ### [Connect Four](https://github.com/bramleyjl/connect_4)
 Connect 4 command line game written in Ruby and tested with RSpec.
-
-* ### [Food Fight](https://github.com/bramleyjl/food_fight)
-Sample Node.js application written for a coding challenge, allows users to vote on fruit choices for a cafeteria lunch.
 
 ## Education
 * ### [Albany Can Code](https://albanycancode.org/) - March 2018
