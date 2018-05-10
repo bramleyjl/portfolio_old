@@ -1,0 +1,40 @@
+.container-fluid {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 64vh;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+img.logo {
+	max-width: 124px;
+	max-height: 124px;
+}
+
+.navbar {
+	height: 6vh;
+	background-color: white;
+}
+
+img.preview {
+	max-width: 600px;
+	max-height: 300px; 
+}
+
+.project-container {
+	margin: 5px;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: black;
+}
