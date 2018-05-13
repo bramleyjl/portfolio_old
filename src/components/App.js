@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
 import projectList from '../projectList'
+import Header from './Header';
 import NavBar from './NavBar';
+import About from './About';
 import Project from './Project';
+import Education from './Education';
+import Contact from './Contact';
 
 class App extends Component {
   constructor() {
@@ -14,18 +18,14 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        
+        <Header />
 
         <NavBar />       
 
         <div className="container">
 
-          <div id="about">
-            <h1>About Me</h1>
-          </div>
+          <About />
 
           <div id="portfolio">
             <h1>Portfolio</h1>
@@ -35,13 +35,9 @@ class App extends Component {
               <Project id="connect4" details={this.state.projects['connect4']} />          
           </div>
 
-          <div id="education">
-            <h1>Education</h1>
-          </div>
+          <Education />
 
-          <div id="contact">
-            <h1>Contact</h1>
-          </div>        
+          <Contact />    
 
         </div>
 

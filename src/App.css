@@ -1,20 +1,17 @@
-.container-fluid {
-  text-align: center;
-}
-
 .App-header {
-  background-color: #222;
-  height: 64vh;
+  height: 94vh;
   padding: 20px;
-  color: white;
+  color: white; 
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 8em;
 }
 
-.App-intro {
-  font-size: large;
+.App-subtitle {
+  font-size: 5em;
+  position: absolute;
+  bottom: 7%;
 }
 
 img.logo {
@@ -27,14 +24,24 @@ img.logo {
 	background-color: white;
 }
 
-img.preview {
-	max-width: 600px;
-	max-height: 300px; 
-}
-
 .project-container {
-	margin: 5px;
+	margin: 50px;
 	border-radius: 7px;
 	border-style: solid;
 	border-color: black;
+}
+
+.submenu-container {
+	margin-top: 20px;
+}
+
+.caption {
+	position: absolute;
+	top: 3%;
+	left: 7%;
+	color: white;
+}
+
+.container-fluid {
+	background: #1A1A1A;
 }

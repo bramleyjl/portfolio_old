@@ -9,6 +9,7 @@ class Project extends React.Component {
     this.state = {
       height: 0,
     };
+    this.toggle = this.toggle.bind(this);
   }
 
   toggle = () => {
@@ -23,27 +24,28 @@ class Project extends React.Component {
   render() {
 
     const details = this.props.details
-    console.log(details.preview)
 
     return (
       <div className="project-container"
         onMouseEnter={this.toggle}
-        onMouseLeave={this.toggle}>
+        onMouseLeave={this.toggle}
+      >
 
-        <div className="row justify-content-around">      
-            <div className="col-sm-4">
-              <img className="logo" src={require(`../../public/logos/${details.logo}`)} alt="rtflogo" />
-            </div>
-            <div className="col-sm-8">
-              <h2>{details.name}</h2>
-            </div>
+        <div className="row align-items-center justify-content-around">      
+          <div className="col-md-4">
+            <img className="logo" src={require(`../../public/logos/${details.logo}`)} alt={details.logo} />
+          </div>
+          <div className="col-md-8">
+            <h2>{details.name}</h2>
+            <h4>{details.tech.join(', ')}</h4>
+          </div>
         </div>
-      <AnimateHeight
+         <AnimateHeight
         duration={ 500 }
         height={ this.state.height }
-      >
-        <div className="row submenu-container">
-          <ProjectDropDown />
+        >
+        <div className="submenu-container">
+          <ProjectDropDown details={details} />
         </div>
       </AnimateHeight>
       </div>

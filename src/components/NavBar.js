@@ -13,16 +13,8 @@ class NavBar extends React.Component {
               <li className="nav-item">
                   <a className="nav-link" href="#about">About Me</a>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Portfolio
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#rtf" >Return the Favor</a>
-                  <a className="dropdown-item" href="#mtgscript">MtG Script Automater</a>
-                  <a className="dropdown-item" href="#twitchfollower">Twitch Follower</a>
-                  <a className="dropdown-item" href="#connect4">Connect 4</a>
-                </div>
+              <li className="nav-item">
+                <a className="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li className="nav-item">
                   <a className="nav-link" href="#education">Education</a>
