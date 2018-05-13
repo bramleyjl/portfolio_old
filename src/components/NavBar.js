@@ -9,7 +9,7 @@ class NavBar extends React.Component {
               <span className="navbar-toggler-icon"></span>
           </button>
           <div className="navbar-collapse collapse w-80" id="navigationList">
-            <ul className="nav navbar-nav ml-auto w-100 justify-content-end">
+            <ul className="nav navbar-nav ml-auto justify-content-end">
               <li className="nav-item">
                   <a className="nav-link" href="#about">About Me</a>
               </li>
