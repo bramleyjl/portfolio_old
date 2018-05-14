@@ -17,32 +17,75 @@
 img.logo {
 	max-width: 124px;
 	max-height: 124px;
+	background-color: white;
 }
+
+
 
 .navbar {
 	height: 6vh;
-	background-color: white;
+	background-color: #202020;
 }
 
 .project-container {
 	margin: 50px;
 	border-radius: 7px;
-	border-style: solid;
-	border-color: black;
+	background: #202020;
 }
 
 .submenu-container {
 	margin-top: 20px;
-}
-
-.caption {
-	position: absolute;
-	top: 3%;
-	left: 7%;
 	color: white;
 }
 
 .container-fluid {
-	background: #1A1A1A;
+	background: #383838;
 	padding: 0px;
+}
+
+.section-title {
+	color: #2DC86F;
+	text-align: center; 
+}
+
+.section-subtitle {
+	color: #2B8EB1;
+}
+
+.section-text {
+	color: #DF7921;
+}
+
+.about-text {
+	background-color: #202020;
+	color: white;
+	border-style: solid;
+	border-color: white;
+}
+
+#education {
+	background-color: #202020;
+}
+
+#contact {
+	background-color: #202020;
+}
+
+.about-info {
+	background-color: #202020;
+	color: white;
+}
+
+.about-img {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #202020;
+}
+
+img.img-fluid {
+	border-radius: 2px;
+}
+
+.card-img-overlay {
+	margin-left: 5%;
 }

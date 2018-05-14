@@ -30,14 +30,13 @@ class Project extends React.Component {
         onMouseEnter={this.toggle}
         onMouseLeave={this.toggle}
       >
-
         <div className="row align-items-center justify-content-around">      
           <div className="col-md-4">
             <img className="logo" src={require(`../../public/logos/${details.logo}`)} alt={details.logo} />
           </div>
           <div className="col-md-8">
-            <h2>{details.name}</h2>
-            <h4>{details.tech.join(', ')}</h4>
+            <h2 className="section-subtitle">{details.name}</h2>
+            <h4 className="section-text">{details.tech.join(', ')}</h4>
           </div>
         </div>
          <AnimateHeight

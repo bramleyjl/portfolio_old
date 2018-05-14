@@ -28,7 +28,7 @@ class App extends Component {
           <About />
 
           <div id="portfolio">
-            <h1>Portfolio</h1>
+            <h1 className="section-title">Portfolio</h1>
               <Project id="rtf" details={this.state.projects['rtf']} />
               <Project id="mtgscript" details={this.state.projects['mtgscript']} />          
               <Project id="twitchfollower" details={this.state.projects['twitchfollower']} />
