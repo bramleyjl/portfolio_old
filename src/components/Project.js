@@ -36,7 +36,7 @@ class Project extends React.Component {
           </div>
           <div className="col-md-8">
             <h2 className="section-subtitle">{details.name}</h2>
-            <h4 className="section-text">{details.tech.join(', ')}</h4>
+            <h4 className="section-text">[{details.tech.join(', ')}]</h4>
           </div>
         </div>
          <AnimateHeight

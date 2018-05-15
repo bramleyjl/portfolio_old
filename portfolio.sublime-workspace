@@ -5,7 +5,47 @@
 		[
 			[
 				"marg",
-				"margin\tproperty"
+				"margin-left\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"ab",
+				"about-info"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"tex",
+				"text-align-last\tproperty"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"col",
+				"col-md"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
 			],
 			[
 				"col-",
@@ -34,10 +74,6 @@
 			[
 				"Project",
 				"ProjectDropDown"
-			],
-			[
-				"cl",
-				"className"
 			],
 			[
 				"flex",
@@ -76,10 +112,6 @@
 				"App-title"
 			],
 			[
-				"tex",
-				"text-decoration\tproperty"
-			],
-			[
 				"alig",
 				"align-self\tproperty"
 			],
@@ -100,10 +132,6 @@
 				"url()\tbackground-image"
 			],
 			[
-				"padd",
-				"padding-right\tproperty"
-			],
-			[
 				"wid",
 				"width\tproperty"
 			],
@@ -114,10 +142,6 @@
 			[
 				"bor",
 				"border-radius\tproperty"
-			],
-			[
-				"col",
-				"color\tproperty"
 			],
 			[
 				"borde",
@@ -171,7 +195,16 @@
 			"file": "src/App.css",
 			"settings":
 			{
-				"buffer_size": 555,
+				"buffer_size": 1053,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Contact.js",
+			"settings":
+			{
+				"buffer_size": 262,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -180,7 +213,7 @@
 			"file": "src/components/App.js",
 			"settings":
 			{
-				"buffer_size": 1145,
+				"buffer_size": 1171,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -194,10 +227,28 @@
 			}
 		},
 		{
+			"file": "src/components/Education.js",
+			"settings":
+			{
+				"buffer_size": 467,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/components/NavBar.js",
 			"settings":
 			{
-				"buffer_size": 1232,
+				"buffer_size": 1231,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/About.js",
+			"settings":
+			{
+				"buffer_size": 1915,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -206,7 +257,7 @@
 			"file": "src/components/Project.js",
 			"settings":
 			{
-				"buffer_size": 1279,
+				"buffer_size": 1332,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -267,6 +318,11 @@
 	"expanded_folders":
 	[
 		"/home/john/projects/portfolio",
+		"/home/john/projects/portfolio/node_modules",
+		"/home/john/projects/portfolio/node_modules/bootstrap",
+		"/home/john/projects/portfolio/node_modules/bootstrap/dist",
+		"/home/john/projects/portfolio/node_modules/bootstrap/dist/css",
+		"/home/john/projects/portfolio/node_modules/bootstrap/scss",
 		"/home/john/projects/portfolio/public",
 		"/home/john/projects/portfolio/public/previews",
 		"/home/john/projects/portfolio/src",
@@ -275,6 +331,9 @@
 	],
 	"file_history":
 	[
+		"/home/john/Documents/Jobs/references",
+		"/home/john/projects/portfolio/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/home/john/projects/portfolio/src/App.css",
 		"/home/john/projects/portfolio/public/index.html",
 		"/home/john/projects/portfolio/src/projectList.js",
 		"/home/john/projects/portfolio/src/components/About.js",
@@ -356,7 +415,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -424,15 +483,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 555,
+						"buffer_size": 1053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								553
+								1007,
+								1007
 							]
 						],
 						"settings":
@@ -440,7 +499,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -448,19 +507,47 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/components/App.js",
+					"file": "src/components/Contact.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1145,
+						"buffer_size": 262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								573,
-								573
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
 							]
 						],
 						"settings":
@@ -473,11 +560,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "src/components/Header.js",
 					"semi_transient": false,
 					"settings":
@@ -503,60 +590,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/NavBar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								601,
-								601
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 4,
-					"file": "src/components/Project.js",
+					"file": "src/components/Education.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1279,
+						"buffer_size": 467,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								576,
-								576
+								340,
+								340
 							]
 						],
 						"settings":
@@ -569,11 +626,102 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "src/components/NavBar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 62.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/About.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/Project.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "src/components/ProjectDropDown.js",
 					"semi_transient": false,
 					"settings":
@@ -585,8 +733,8 @@
 						"selection":
 						[
 							[
-								222,
-								222
+								388,
+								388
 							]
 						],
 						"settings":
@@ -595,11 +743,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 112.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -633,7 +781,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.407627118644,
 			1.0
 		],
 		"rows":
@@ -655,7 +803,7 @@
 	"project": "portfolio.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
