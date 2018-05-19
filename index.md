@@ -10,8 +10,8 @@ Written in collaboration with Albany Can Code's Frontend cohort, Return the Favo
 * ### [MtG Script Automater](https://github.com/BColsey/MTGScriptAutomater)
 Parses text for Magic: the Gathering card names and returns all versions of found cards. Users can then download high-resolution images of the version of their choice. Developed in Node.js/Express and integrates [Scryfall's API.](https://scryfall.com) Live site viewable [here.](http://mtgscript.bramley.design) 
 
-* ### [ForumPlus](https://github.com/bramleyjl/forum_plus)
-Forum platform built using Node.js and Express.
+* ### [Twitch Follower](https://github.com/bramleyjl/twitch_follower)
+Tracks the status of my favorite streamers on Twitch.tv. Live streamers will have their currently played game, stream title, and preview snapshot shown. Developed with React and Twitch's API. Live site can be seen [here.](http://twitchfollower.bramley.design)
 
 * ### [Connect Four](https://github.com/bramleyjl/connect_4)
 Connect 4 command line game written in Ruby and tested with RSpec.
